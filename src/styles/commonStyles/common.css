@@ -1,0 +1,41 @@
+.favorite-message, .delete-message {
+    z-index: 2;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0;
+    right: 0;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.message-btn {
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.delete-message button {
+    background-color: rgb(215, 30, 30);
+}
+
+.favorite-message button {
+    background-color: rgb(20, 150, 20);
+}
+
+.delete-message {
+    background-color: rgba(255, 0, 0, 0.7);
+    margin: auto;
+}
+
+.favorite-message {
+    background-color: rgb(20, 120, 20);
+}
+
+.enabled {
+    display: flex;
+}
