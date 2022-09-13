@@ -2,7 +2,7 @@
   "name": "giftapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://LucianoRocchetta.github.io/GifAPP",
+  "homepage": "GifAPP",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
